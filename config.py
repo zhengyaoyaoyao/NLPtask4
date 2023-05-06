@@ -30,7 +30,7 @@ class Config:
         self.HIDDEN_SIZE = 256
         self.TARGET_SIZE = 33
         self.LR=1e-4 # 学习率
-        self.EPOCH=100  # 训练轮次
+        self.EPOCH=1  # 训练轮次
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
         self.MODEL_DIR='./output/model/'

@@ -1,6 +1,5 @@
 import torch.nn as nn
 from torchcrf import CRF
-import torch
 from config import *
 
 class Model(nn.Module):
